@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados pessoais HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <h1>Dados pessoais</h1>
+
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" size="50" maxlength="100" placeholder="Insira seu nome" autofocus autocomplete="off">
+            <br>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="mail" size="50" maxlength="100" placeholder="Insira seu E-mail" autocomplete="off">
+            <br>
+            <br>
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="mail" id="name" size="50" maxlength="100" placeholder=" (99) 99999-9999" autocomplete="off">
+        </form>
+    </fieldset>
+    <button>Enviar</button>
+    <button>Limpar</button>
+</form>
+    <br>
+    <br>  
+    <fieldset>
+        <legend>Selecione:</legend>
+        <form action="#" method="post">
+        <label for="preferencias">Selecione</label>
+        <input list="preferencias">
+        <datalist id="preferencias">
+            <option value="Ler"></option>
+            <option value="Esporte"></option>
+            <option value="Comer"></option>
+            <option value="Dormir"></option>
+            <option value="Estudar"></option>
+        </datalist>
+    <br>
+    <br>
+        <label for="listar">Festa junina</label>
+        <select name="listar"id="listar">
+            <option value="Correio-elegante">Correio-elegante</option>
+            <option value="pipoca">Pipoca</option>
+            <option value="arroz-doce">Arroz doce</option>
+            <option value="pescaria">Pescaria</option>
+            <option value="pacoca">Paçoca</option>
+        </select>
+        
+    </fieldset>
+</body>
+</html>
